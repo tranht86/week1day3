@@ -27,7 +27,8 @@ return this:
 
 //var letterCount = function countLetters()
 
-var characters = "This is a test"
+var characters = "lighthouse in the hosue"
+characters = characters.replace(/\s+/g, '')
 var ltrs = {}
 //var ltrs = count
 
@@ -39,6 +40,10 @@ function countLetters(letters) {
   for (i in letters) {
     if (ltrs[letters[i]]){
       ltrs[letters[i]] += 1
+
+
+  //  } else if (ltrs[letters[i]] = ' ') {
+  //    ltrs[letters[i]].splice
     } else {
       ltrs[letters[i]] = 1
     }
