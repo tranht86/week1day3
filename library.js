@@ -34,7 +34,7 @@ var list = ['playlists']
 var printPlaylists = function () {
 
   for (var i in list) {
-    // console.log(library[list[i]])
+    console.log(library[list[i]])
   }return list
 }
     console.log(library[list])
